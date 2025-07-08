@@ -1,10 +1,11 @@
 import express from "express"
 const app= express()
 import cors from "cors"
+# this is code testing
 
 app.use(cors("http://localhost:5173"))
 app.get("/",(req,res)=>{
-    res.send("Welcome to the server page")
+    res.send("Welcome to my website")
 
 });
 
