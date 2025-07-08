@@ -5,7 +5,7 @@ import cors from "cors"
 
 app.use(cors("http://localhost:5173"))
 app.get("/",(req,res)=>{
-    res.send("Welcome to my website")
+    res.send("Welcome to my website1")
 
 });
 
